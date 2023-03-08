@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
 const NavBar = () => {
+    
 
     const [nav, setNav] = useState(false)
     const links = [
@@ -33,13 +34,14 @@ const NavBar = () => {
 
     return (
         <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
+            
             <div>
-                <h1 className='text-5xl font-signatur ml-2'>Anas parambadan</h1>
+               <Link to={'Home'} smooth duration={500}> <h1 className='text-5xl font-signatur ml-2 cursor-pointer'> Anas parambadan</h1> </Link> 
             </div>
             <ul className='hidden md:flex'>
                 {
                     links.map(({ id, link }) => {
-                        return <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-100'><Link to={link} smooth duration={500} >{link}</Link> </li>
+                        return <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-105 duration-300 link link-underline' ><Link to={link} smooth duration={500} >{link}</Link> </li>
 
                     })
                 }

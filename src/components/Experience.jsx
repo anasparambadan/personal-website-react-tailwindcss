@@ -6,6 +6,8 @@ import reactimage from '../assets/react.png'
 import node from '../assets/node.png'
 import javascript from '../assets/javascript.png'
 import tailwind from '../assets/tailwind.png'
+import mongodb from '../assets/mongodb.png'
+import bootstrap from '../assets/bootstrap.png'
 
 const Experience = () => {
     const experinces = [
@@ -51,9 +53,21 @@ const Experience = () => {
             title: 'GitHub',
             style: 'shadow-gray-400'
         },
+        {
+            id: 8,
+            src: mongodb,
+            title: 'MongoDB',
+            style: 'shadow-green-400'
+        },
+        {
+            id: 9,
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-purple-400'
+        }
     ]
     return (
-        <div name='Experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+        <div name='Experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-fit pt-20'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
 

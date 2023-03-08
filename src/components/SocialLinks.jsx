@@ -12,19 +12,19 @@ const SocialLinks = () => {
         {
             id:1,
             child:(<>Linkedin <FaLinkedin size={30}/></>  ),
-            href:'https://linkedin.com',
+            href:'https://www.linkedin.com/in/anasparambadan/',
             style:'rounded-tr-md'
         },
         {
             id:2,
             child:(<>Github <FaGithub size={30}/></>  ),
-            href:'https://Github.com',
+            href:'https://github.com/anasparambadan',
            
         },
         {
             id:3,
             child:(<>Email <HiOutlineMail size={30}/></>  ),
-            href:'mailto:xyz@gmail.com',
+            href:'mailto:iamanasparambadan@gmail.com',
            
         },
         {

@@ -2,17 +2,17 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name = 'About' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white' >
+    <div name = 'About' className='w-full h-fit bg-gradient-to-b from-gray-800 to-black text-white pt-20' >
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-20'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias voluptatibus ipsa eum dolore placeat qui, magni modi illo laborum quo maiores quibusdam est voluptatem, ducimus excepturi? Tempore, perspiciatis possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eius hic voluptates soluta cum, repellat consectetur assumenda recusandae, facere nobis explicabo totam debitis asperiores non id eos, consequatur nostrum minima.
+            Self-taught MERN stack developer passionate about building complete, end-to-end web applications and having a understanding of the different layers and technologies involved. Currently doing internship in Full stack web development from which I gained valuable skills in MongoDB, Express.js, React.js, and Node.js
             </p>
             <br />
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci voluptatibus doloremque sint! Quo exercitationem omnis quae reprehenderit? Soluta corrupti vel veritatis obcaecati autem aut reprehenderit. Tempora qui est sapiente? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore ipsum consectetur id eaque magnam quod, corporis eveniet qui reiciendis tenetur laboriosam quas nostrum placeat fuga ullam totam facilis doloribus!
+            As a highly motivated and detail-oriented individual, I am eager to bring my skills and passion for technology to a new and challenging role. I have a solid understanding of software development principles and have a keen eye for detail, ensuring high-quality, user-friendly experiences. I am a dedicated and hardworking individual, always striving to improve and grow as a developer. I am confident in my ability to quickly learn new technologies and eager to take on new challenges to further develop my skills and contribute to the success of the team.
             </p>
         </div>
     </div>
