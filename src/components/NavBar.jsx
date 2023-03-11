@@ -36,7 +36,7 @@ const NavBar = () => {
         <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4'>
             
             <div>
-               <Link to={'Home'} smooth duration={500}> <h1 className='text-5xl font-signatur ml-2 cursor-pointer'> Anas parambadan</h1> </Link> 
+               <Link to={'Home'} smooth duration={500}> <h1 className='text-4xl font-signatur ml-2 cursor-pointer hover:text-blue-400 duration-300 '> Anas parambadan</h1> </Link> 
             </div>
             <ul className='hidden md:flex'>
                 {

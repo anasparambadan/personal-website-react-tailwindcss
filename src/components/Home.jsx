@@ -12,7 +12,7 @@ const Home = () => {
           <h2 className='text-4xl md:text-7xl font-bold text-white four'>
            Hai, I am Anas Parambadan 
           </h2>
-          <p className='text-gray-500 py-4 max-w-md'>
+          <p className='text-gray-400 py-4 max-w-md'>
           A full stack web developer experienced in developing end-to-end web applications. I have a strong focus on writing clean and scalable code. I enjoy working collaboratively to build robust web solutions. Take a look at my portfolio to see some examples of my work.
           </p>
           <div>
