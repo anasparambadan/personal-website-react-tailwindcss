@@ -12,7 +12,7 @@ const About = () => {
             </p>
             <br />
             <p className='text-xl'>
-            As a highly motivated and detail-oriented individual, I am eager to bring my skills and passion for technology to a new and challenging role. I have a solid understanding of software development principles and have a keen eye for detail, ensuring high-quality, user-friendly experiences. I am a dedicated and hardworking individual, always striving to improve and grow as a developer. I am confident in my ability to quickly learn new technologies and eager to take on new challenges to further develop my skills and contribute to the success of the team.
+             As a highly motivated and detail-oriented individual, I am eager to bring my skills and passion for technology to a new and challenging role. I have a solid understanding of software development principles and have a keen eye for detail, ensuring high-quality, user-friendly experiences. I am a dedicated and hardworking individual, always striving to improve and grow as a developer. I am confident in my ability to quickly learn new technologies and eager to take on new challenges to further develop my skills.
             </p>
         </div>
     </div>
