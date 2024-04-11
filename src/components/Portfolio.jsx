@@ -5,6 +5,8 @@ import navbar3 from '../assets/portfolio/navbar3.png'
 import navbar4 from '../assets/portfolio/navbar4.png'
 import navbar5 from '../assets/portfolio/navbar5.png'
 import navbar6 from '../assets/portfolio/navbar6.png'
+import navbar7 from '../assets/portfolio/navbar7.png'
+import navbar8 from '../assets/portfolio/navbar8.png'
 
 
 const Portfolio = () => {
@@ -52,6 +54,20 @@ const Portfolio = () => {
             link:"https://github.com/anasparambadan/todo-list-react-2.git",
             demo:"https://scheduletodo.netlify.app/",
             name:"Todo-list"
+        },
+        {
+            id: 7,
+            src: navbar7,
+            link:"https://github.com/anasparambadan/promptpedia-nextjs",
+            demo:"https://promptpedia-nextjs.vercel.app/",
+            name:"Promptpedia"
+        },
+        {
+            id: 8,
+            src: navbar8,
+            link:"https://github.com/anasparambadan/admin-dashboard",
+            demo:"https://admin-dashboard-gpfb.onrender.com",
+            name:"Admin Dashboard"
         },
     ]
 

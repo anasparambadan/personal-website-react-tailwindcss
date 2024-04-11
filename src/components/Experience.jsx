@@ -8,6 +8,7 @@ import javascript from '../assets/javascript.png'
 import tailwind from '../assets/tailwind.png'
 import mongodb from '../assets/mongodb.png'
 import bootstrap from '../assets/bootstrap.png'
+import nextjs from '../assets/nextjs.png'
 
 const Experience = () => {
     const experinces = [
@@ -58,6 +59,13 @@ const Experience = () => {
             src: mongodb,
             title: 'MongoDB',
             style: 'shadow-green-400'
+        },
+        
+        {
+            id: 10,
+            src: nextjs,
+            title: 'Next.js',
+            style: 'shadow-gray-200'
         },
         {
             id: 9,
